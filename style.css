@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif; /* Mengatur font seluruh halaman menjadi Arial, jika tidak tersedia akan pakai sans-serif */
+    margin: 0; /* Menghapus jarak default dari tepi browser */
+    background-color: #f2f2f2; /* Warna latar belakang halaman menjadi abu-abu muda */
+}
+
+.header {
+    background-color: #007bff; /* Warna biru cerah untuk bagian header */
+    color: white; /* Warna teks di header menjadi putih */
+    text-align: center; /* Teks diratakan ke tengah */
+    padding: 20px 0; /* Ruang atas dan bawah 20px, kiri dan kanan 0 */
+}
+
+.nav {
+    background-color: #003366; /* Warna biru tua untuk latar belakang navigasi */
+    padding: 15px 0; /* Ruang atas dan bawah sebesar 15px */
+    text-align: center; /* Semua item navigasi disejajarkan ke tengah */
+}
+
+.nav p {
+    display: inline-block; /* Menampilkan tag <p> seperti elemen inline tapi bisa diatur ukuran & margin */
+    color: white; /* Warna teks putih */
+    text-decoration: none; /* Menghilangkan garis bawah default */
+    margin: 0 20px; /* Jarak kiri dan kanan antar menu 20px */
+    font-weight: bold; /* Membuat teks lebih tebal */
+    font-size: 16px; /* Ukuran huruf 16px */
+    cursor: pointer; /* Saat diarahkan kursor berubah jadi pointer (tangan) */
+}
+
+.nav p:hover {
+    text-decoration: underline; /* Saat hover, teks akan digarisbawahi */
+}
+
+.welcome {
+    text-align: center; /* Teks dalam bagian welcome rata tengah */
+    margin: 30px 0; /* Jarak atas dan bawah 30px */
+}
+
+.welcome h1 {
+    background-color: #555; /* Warna latar belakang teks sambutan menjadi abu gelap */
+    color: white; /* Warna teks putih */
+    display: inline-block; /* Agar hanya selebar isi konten */
+    padding: 10px 20px; /* Ruang dalam atas-bawah 10px, kiri-kanan 20px */
+    border-radius: 5px; /* Membuat sudut kotak melengkung */
+    margin: 30px; /* Jarak luar sekitar elemen */
+}
+
+.content {
+    display: flex; /* Menyusun elemen di dalam .content secara horizontal (sejajar) */
+    justify-content: center; /* Menempatkan konten di tengah secara horizontal */
+    margin: 30px; /* Jarak luar konten */
+    gap: 20px; /* Jarak antar elemen anak di dalam .content */
+}
+
+.artikel {
+    flex: 1; /* Membuat elemen artikel fleksibel menyesuaikan ruang tersedia */
+    background-color: white; /* Warna latar putih */
+    padding: 10px; /* Ruang dalam 10px */
+    border-radius: 5px; /* Sudut elemen melengkung */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Efek bayangan halus */
+    width: 300px; /* Lebar tetap 300px */
+}
+
+.sidebar {
+    background-color: white; /* Warna latar putih */
+    padding: 20px; /* Ruang dalam 20px */
+    border-radius: 5px; /* Sudut elemen melengkung */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Efek bayangan seperti artikel */
+    width: 300px; /* Lebar tetap 300px */
+}
+
+.footer {
+    background-color: rgb(60, 60, 60); /* Warna latar belakang abu-abu gelap */
+    color: white; /* Warna teks putih */
+    text-align: center; /* Teks rata tengah */
+    padding: 5px 0; /* Ruang atas dan bawah 5px */
+    margin-top: 30px; /* Jarak atas dari elemen sebelumnya */
+    font-size: 14px; /* Ukuran teks kecil */
+}
