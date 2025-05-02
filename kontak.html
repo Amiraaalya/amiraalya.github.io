@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Kontak</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1><b>Eco Youth</b></h1>
+            
+        </header>
+        <nav class="nav">
+            <a href="index.html">Beranda</a>
+            <a href="tentang.html">Tentang</a>
+            <a href="kegiatan.html">Kegiatan</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <main>
+            <section>
+                <h2>Hubungi Kami</h2>
+                <form id="formKontak" action="#" method="post">
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="4" cols="30" required></textarea><br><br>
+
+                    <button type="submit">Kirim</button>
+                </form>
+            </section>
+
+            <section>
+                <h2>Media Sosial</h2>
+                <ul>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/">Tiktok</a></li>
+                    <li><a href="https://www.youtube.com/">YouTube</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <p id="pesanStatus" style="text-align:center;"></p>
+
+        <script src="kontak.js">
+         
+        </script>
+
+        <footer>
+            <p>&copy; 2025 Eco Youth</p>
+        </footer>
+    </body>
+</html>
